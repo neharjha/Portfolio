@@ -3,7 +3,7 @@ import Head from "next/head";
 import { Inter } from "next/font/google";
 import styles from "../styles/Home.module.css";
 import { HandMetal } from "lucide-react";
-import Navbar from "../components/navbar";
+import Navbar from "../components/Navbar";
 import HeroPageHeader from "../components/HeroPageHeader";
 import AboutUs from "../components/AboutUs";
 import Education from "../components/Education";
