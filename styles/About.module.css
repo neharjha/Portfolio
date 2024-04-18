@@ -1,0 +1,119 @@
+ .about{
+   width: 100%;
+    color: white;
+    display: flex;
+    margin: 0px 30px;
+    gap: 139px;
+ } 
+  .about_name{
+    color:#EFAE02;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 900;
+    font-size: 50px;
+    margin-top:135px;
+    margin-bottom:50px;
+}
+.logo{
+   display: flex;
+   justify-content: flex-start;
+   margin-bottom: 25px;
+    gap: 30px;
+    align-items: center;
+}
+.logo2{
+   width: 9%;
+   border-radius: 142px;
+   border: 2px solid;
+}
+.logo_text{
+   color:#EFAE02;
+  
+   font-size: 28px;
+    font-weight: 600;
+}
+.musicicon{
+   width:40px;
+}
+.music{
+   background: white;
+   display: flex;
+   gap: 8px;
+   border: 1px solid;
+   /* width: 142px; */
+   color: black;
+   border-radius: 29px;
+   padding: 6px 32px;
+   /* justify-content: left; */
+   align-items: center;
+}
+.hobbies{
+   display:flex;
+   gap: 20px;
+}
+.title1{
+   color:rgb(2, 2, 35);
+   font-weight: 900;
+}
+.title2{
+   color:rgb(16, 119, 4);
+   font-weight: 900;
+}
+.title3{
+   color:rgb(2, 2, 35);
+   font-weight: 900;
+}
+.expriance{
+   display:flex;
+   gap: 20px;
+}
+.ex{
+   
+   display: flex;
+   gap: 8px;
+  
+   color: black;
+   border-radius: 29px;
+   padding: 6px 32px;
+  flex-direction: column;
+  
+}
+.title4{
+   color:#ffffff;
+   font-weight: 900;
+   text-align: center;
+}
+.title5{
+   color:rgb(10, 10, 216);
+   font-weight: 900;
+}
+.num{
+   color:#797569;;
+   font-weight: 900;
+   font-size: 50px;
+}
+.paragraph{
+   color:#c1bcbc;
+   border:1px solid #212121;
+   background-color: #212121;
+  width:85%;
+   padding: 32px;
+   line-height:1.5;
+   border-radius:40px;
+   font-size: 18px;
+}
+@media only screen and (max-width:767px){
+   .about_name{
+      margin-top:70px;
+    margin-bottom: 10px;
+   }
+   .expriance{
+      display:flex;
+      gap: 20px;
+      flex-direction: column;
+   }
+   .img_neha{
+      width:80%;
+   }
+}

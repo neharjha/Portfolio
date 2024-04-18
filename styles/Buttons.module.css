@@ -1,0 +1,44 @@
+.button_setion{
+    display: flex;
+    gap: 10px;
+    padding-top: 20px;
+}
+.btn1{
+    font-size: 14px;
+    color: #EFAE02;
+    padding: 10px 40px;
+    background: black;
+    border: 1px solid;
+    border-radius: 20px;
+    cursor: pointer;
+} 
+
+.btn1:hover{
+    font-size: 14px;
+    color: #000000;
+    padding: 10px 40px;
+    background: #EFAE02;
+    border: 1px solid;
+    border-radius: 20px;
+    font-weight: 900;
+ 
+}
+.btn2{
+    font-size: 14px;
+    color: #000000;
+    padding: 10px 40px;
+    background: #EFAE02;
+    border: 1px solid;
+    border-radius: 20px;
+    font-weight: 900;
+    cursor: pointer;
+}
+.btn2:hover{
+    font-size: 14px;
+    color: #EFAE02;
+    padding: 10px 40px;
+    background: black;
+    border: 1px solid;
+    border-radius: 20px;
+   
+}
